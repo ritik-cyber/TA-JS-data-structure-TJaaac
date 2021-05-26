@@ -1,6 +1,7 @@
 //  Follow instructions below and write code accordingly.
 
 //  - Create a variable named `character` using `let` assign a value of empty object.
+let character = {};
 
 //  - Go to this [Arya Stark](https://awoiaf.westeros.org/index.php/Arya_Stark)
 
@@ -30,7 +31,7 @@ let age = 20;
 
 // - Add a new key with the name stored in variable `keyName` defined below i.e `playedBy` (use [] for computed property) and the value of "Maisie Williams"
 
-let keyName = 'playedBy';
+let keyName = "playedBy";
 
 // - Using `alert` alert the value stored in key you added above `keyName` use the variable name to access
 
@@ -39,3 +40,18 @@ let keyName = 'playedBy';
 // - Add a new key named `totalSeasons` with the value of `1 + 2 + 3 + 2`. Use this expression
 
 // - Access the value of the key `totalSeason` (it should be 8)
+
+let character = {
+  characterName: "Arya",
+  character_age: 20,
+  "sur name": "stark",
+  title: "Lady of Winterfell",
+};
+
+character[greet] = alert(
+  `I am ${character.characterName} and my title is ${character.title} `
+);
+character.isfemale = "true";
+character[greet] = alert(
+  `She is ${character.characterName} and her title is ${character.title}`
+);
