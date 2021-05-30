@@ -15,13 +15,11 @@ const got = {
         },
         {
           name: "Robb Stark",
-          description:
-            "Son of Eddard and Catelyn Stark - Direwolf: Grey Wind",
+          description: "Son of Eddard and Catelyn Stark - Direwolf: Grey Wind",
         },
         {
           name: "Sansa Stark",
-          description:
-            "Daughter of Eddard and Catelyn Stark - Direwolf: Lady",
+          description: "Daughter of Eddard and Catelyn Stark - Direwolf: Lady",
         },
         {
           name: "Arya Stark",
@@ -30,13 +28,11 @@ const got = {
         },
         {
           name: "Brandon Stark",
-          description:
-            "Son of Eddard and Catelyn Stark - Direwolf: Summer",
+          description: "Son of Eddard and Catelyn Stark - Direwolf: Summer",
         },
         {
           name: "Rickon Stark Upper",
-          description:
-            "Son of Eddard and Catelyn Stark - Direwolf: Shaggydog",
+          description: "Son of Eddard and Catelyn Stark - Direwolf: Shaggydog",
         },
         {
           name: "Jon Snow",
@@ -50,13 +46,11 @@ const got = {
       people: [
         {
           name: "Tywin Lannister",
-          description:
-            "Lord of Casterly Rock - Warden of the West",
+          description: "Lord of Casterly Rock - Warden of the West",
         },
         {
           name: "Tyrion Lannister",
-          description:
-            "Son of Tywin Lannister - The Imp",
+          description: "Son of Tywin Lannister - The Imp",
         },
         {
           name: "Jaime Lannister",
@@ -72,3 +66,13 @@ const got = {
     },
   ],
 };
+
+console.log(got.houses);
+console.log(got.houses.length);
+// for (em of got.house.length) {
+//   console.log(em);
+// }
+// for (name1 of got.houses[0].people.description) {
+//   console.log(name1);
+// }
+console.log(got.houses[0].people);
